@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puttu Kadala Recipe</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Puttu Kadala Recipe</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <!-- <li><a href="../categories.html">Categories</a></li> -->
+                <li><a href="../search.html">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="recipe-detail">
+        <section class="recipe-intro">
+            <h2>Puttu Kadala</h2>
+        </section>
+        <section class="recipe-content">
+            <div class="recipe-image">
+                <img src="../images/Steamed.jpg" alt="Puttu Kadala">
+            </div>
+            <div class="recipe-details">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>2 cups rice flour</li>
+                    <li>1 cup grated coconut</li>
+                    <li>2 cups black chickpeas, cooked</li>
+                    <li>1 large onion, finely chopped</li>
+                    <li>2 tomatoes, chopped</li>
+                    <li>2 tbsp ginger-garlic paste</li>
+                    <li>Spices (turmeric, chili powder, coriander powder)</li>
+                    <li>Salt to taste</li>
+                    <li>Oil for cooking</li>
+                </ul>
+                <h3>Steps</h3>
+                <ol>
+                    <li>Mix rice flour with water and salt to form a crumbly mixture.</li>
+                    <li>Layer the rice flour mixture and grated coconut in a puttu maker and steam for 10 minutes.</li>
+                    <li>In a pan, heat oil and sauté onions until golden brown.</li>
+                    <li>Add ginger-garlic paste and cook until raw smell disappears.</li>
+                    <li>Add tomatoes and cook until they turn mushy.</li>
+                    <li>Add spices, salt, and cooked chickpeas. Simmer for 15 minutes.</li>
+                    <li>Serve hot with puttu.</li>
+                </ol>
+            </div>
+        </section>
+        <section class="comments-section-wrapper">
+            <h3>Comments and Ratings</h3>
+            <form class="comment-form" data-recipe-id="puttu-kadala">
+                <label for="rating">Rating:</label>
+                <select name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br>
+                <br>
+                <label for="comment">Comment:</label>
+                <textarea name="comment" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="comments-section" data-recipe-id="puttu-kadala">
+                <!-- Comments will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Recipe Collection | Developed by Shibino Abraham</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullseye Recipe</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bullseye Recipe</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <!-- <li><a href="../categories.html">Categories</a></li> -->
+                <li><a href="../search.html">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="recipe-detail">
+        <section class="recipe-intro">
+            <h2>Bullseye (Egg in a Hole)</h2>
+        </section>
+        <section class="recipe-content">
+            <div class="recipe-image">
+                <img src="../images/Sunny sideup.jpg" alt="Bullseye Recipe">
+            </div>
+            <div class="recipe-details">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>1 slice of bread</li>
+                    <li>1 egg</li>
+                    <li>1 tablespoon butter</li>
+                    <li>Salt, to taste</li>
+                    <li>Black pepper, to taste</li>
+                </ul>
+                <h3>Steps</h3>
+                <ol>
+                    <li>Use a round cookie cutter or the rim of a glass to cut a hole in the center of the bread slice.</li>
+                    <li>Heat a skillet over medium heat and add the butter.</li>
+                    <li>Place the bread in the skillet and let it toast for about a minute.</li>
+                    <li>Crack the egg into the hole of the bread.</li>
+                    <li>Cook until the egg sets on the bottom, about 2-3 minutes.</li>
+                    <li>Flip the bread and egg carefully to cook the other side, about 1-2 minutes.</li>
+                    <li>Season with salt and pepper to taste.</li>
+                    <li>Serve immediately.</li>
+                </ol>
+            </div>
+        </section>
+        <section class="comments-section-wrapper">
+            <h3>Comments and Ratings</h3>
+            <form class="comment-form" data-recipe-id="bullseye">
+                <label for="rating">Rating:</label>
+                <select name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br>
+                <br>
+                <label for="comment">Comment:</label>
+                <textarea name="comment" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="comments-section" data-recipe-id="bullseye">
+                <!-- Comments will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Recipe Collection | Developed by Shibino Abraham</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
